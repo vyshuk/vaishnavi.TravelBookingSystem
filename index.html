@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="style.css" >
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+      crossorigin="anonymous"></html>
+    </head>
+    <body>
+      <div class="container d-none d-xl-block">
+        <div class="header-section">
+          <img src="https://seeklogo.com/images/S/skybooking-logo-97D2AF63E7-seeklogo.com.png" alt="" class="image" >
+
+          <div class="navbar">
+            <ul>
+              <li><a class="active" href="#home">Home</a></li>
+              <li><a href="#news">About<select></select></a></li>
+              <li><a href="#contact">BLOG<select></select></a></li>
+              <li><a href="#about">PAGES<select></select></a></li>
+              <li><a href="#about">CONTACTS</a></li>
+            </ul>
+            
+            
+                  <form class="search-icon" action="action_page.php">
+                    
+                    
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                </div>
+                  
+                  
+                  
+                  
+              </div>
+              <div class="position-relative">
+                
+                
+                <img src="" alt="" class="img-fluid d-xl-block">
+                <div class="d-none d-xl-block position-absolute start-50 top-50 translate-middle">
+                  <div class="rounded p-3 bg-cp" style="margin-bottom: 40%;">
+                    <div>
+                      <div class="btn btn-dark fw-bold">Flights<img src="https://static.vecteezy.com/system/resources/previews/000/620/372/original/aircraft-airplane-airline-logo-label-journey-air-travel-airliner-symbol-vector-illustration.jpg" alt="" class="images-logo" /></div>
+                      <div class="btn btn-primary fw-bold">Hotels<img src="https://www.hilton.com/im/en/VNSDIDI/17528332/vnsdi-guestroom.jpg?impolicy=crop&cw=4024&ch=2675&gravity=NorthWest&xposition=0&yposition=162&rw=768&rh=511" 
+                        alt="" class="images-logo" />
+                      </div>
+                      <div class="btn btn-primary fw-bold">Car Hire<img src="https://s1.cdn.autoevolution.com/images/news/gallery/audi-introduces-titanium-package_3.jpg" alt="" class="images-logo" /></div>
+                    </div>
+                    <div class="d-flex align-items-center" style="width: 700px;">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label fw-bold fs-7" for="flexRadioDefault1">
+                          Round Trip
+                        </label>
+                      </div>
+                      <div class="form-check mx-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label fw-bold fs-7" for="flexRadioDefault2">
+                          One Trip
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+                        <label class="form-check-label fw-bold fs-7" for="flexRadioDefault3">
+                          Multi-City
+                        </label>
+                      </div>
+                    
+                    <div class="form-check  direct-flight justify-content-end" style="float: right;">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                      <label class="form-check-label fw-bold fs-8" for="flexCheckChecked">
+                        Direct Flights Only
+                      </label>
+                    </div>
+                    </div>
+                    <div class="pv-margin d-flex align-items-center py-2 ">
+                      <div>
+                        <label for="exampleDataList" class="form-label fw-bold fs-8 m-0">From</label>
+                        <input class="form-control inp-height inp-width" list="datalistOptions1" id="exampleDataList" placeholder="New Delhi(DEL)" 
+                        style="width: 150%;" style="margin-right: 5px;">
+                        <datalist id="datalistOptions1">
+                          <option value="New delhi">
+                            <option value="Mumbai">
+                              <option value="Hyderabad">
+                                <option value="Bengaluru">
+                                  <option value="Chennai">
+
+                                  </datalist>
+                      </div>
+                      <div>
+                        <label for="exampleDataList2" class="form-label fw-bold fs-8 m-0">To</label>
+                        <input class="form-control inp-height inp-width" list="datalistOptions" id="exampleDataList2" 
+                        placeholder="New York(JFK)" style="width: 150%; margin-left: 5%;" >
+                        <datalist id="datalistOptions">
+                          <option value="San Francisco">
+                            <option value="New York">
+                              <option value="Seattle">
+                                <option value="Los Angeles">
+                                  <option value="Chicago">
+
+                                  </datalist>
+                      </div>
+                      <div>
+                        <label for="exampleDataList3" class="form-label fw-bold fs-8 m-0">Cabin Class</label>
+                        <input class="form-control" list="datalistOptions3" id="exampleDataList3" placeholder="Economy" style="width: 150%;"
+                        style="margin-right: 10px;">
+                        <datalist id="datalistOptions3">
+                          <option value="Economy">
+                            <option value="premium Economy">
+                              <option value="Bussiness">
+                                <option value="FirstClass">
+                                  
+
+                                  </datalist>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <div>
+                        <div class="form-check form-check-inline ms-5">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                          <label class="form-check-label fw-bold fs-8" for="flexCheckDefault">
+                            Add Nearby Airports
+                          </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                          <label class="form-check-label fw-bold fs-8" for="flexCheckChecked">
+                            Add Nearby Airports
+                          </label>
+                        </div>
+                      
+                        
+                    <div class="d-flex align-items-center py-2 ">
+                    <div>
+                      
+                      
+                      <label for="exampleDataList" class="form-label fw-bold fs-8 m-0">Departure</label>
+                      <input class="form-control" list="datalistOptions" id="exampleDataList"
+                      style="margin-right: 10px;">
+                      <datalist id="datalistOptions">
+                        <option value="San Francisco">
+                          <option value="New York">
+                            <option value="Seattle">
+                              <option value="Los Angeles">
+                                <option value="Chicago">
+
+                                </datalist>
+                    </div>
+                    <div>
+                      <label for="exampleDataList" class="form-label fw-bold fs-8 m-0">Return</label>
+                      <input class="form-control" list="datalistOptions" id="exampleDataList"
+                      style="margin-right: 10px;">
+                      <datalist id="datalistOptions">
+                        <option value="San Francisco">
+                          <option value="New York">
+                            <option value="Seattle">
+                              <option value="Los Angeles">
+                                <option value="Chicago">
+
+                                </datalist>
+                    </div>
+                    <div>
+                      <label for="exampleselectlist" class="form-label fw-bold fs-8 m-0">Adults(16+)</label>
+                      <select class="form-select">
+                        <option selected>2</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </div>
+                    <div>
+                      <label for="exampleselectlist" class="form-label fw-bold fs-8 m-0">Children</label>
+                      <select class="form-select">
+                        
+                        
+                        <option selected>0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="btn btn-primary fw-bold btn-lg inp-width" style="margin-top: 5%;">Search Flights</div>
+                </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="bottom-section bg-container pt-5 pb-5 bg-white" style="width: 100%; height: 50%;">
+              <div class="logos d-flex flex-row align-items-center">
+                              <div>
+                                  <img src="https://th.bing.com/th/id/R.1a57b169ba89b6488327f8260726d0d1?rik=vV%2bMRnb%2bNClV%2fg&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2f9iz%2f6Rz%2f9iz6Rzg5T.png&ehk=fTEOAcUBGpjurf7aexUbKZKKrJgtw0gC4O6qteYdW3E%3d&risl=&pid=ImgRaw&r=0" class="logos-section-image" />
+                              </div>
+                              <div>
+                                  <img src="https://www.malaysiaairlines.com/content/dam/mas/enrich/earn/airlines/sub-page/partner-airlines/emirates/emirates.png" class="logos-section-image" />
+                              </div>
+                              <div>
+                                  <img src="https://logos-world.net/wp-content/uploads/2020/03/Air-France-Logo-2009-2016.jpg" 
+                                  class="logos-section-image" />
+                              </div>
+      
+                              <div>
+                                  <img src="https://logos-world.net/wp-content/uploads/2021/02/British-Airways-Logo-1997-present.jpg" class="logos-section-image" />
+                              </div>
+                              <div>
+                                  <img src="https://th.bing.com/th/id/R.8936879e872e161b9a9c94c748372b8b?rik=nlHZNIUnXxwi4A&riu=http%3a%2f%2fwww.toutaumaroc.com%2femploi%2fwp-content%2fuploads%2f2016%2f06%2fQatar_Airways_Logo.png&ehk=JrZliOP2Hi4vUTVKP26Pp1CUkVeBfhN8POqpDRjl9s4%3d&risl=&pid=ImgRaw&r=0" class="logos-section-image" />
+                              </div>
+                              <div>
+                                  <img src="https://th.bing.com/th/id/R.a3174b2cfa48411ce2556c04665a2923?rik=artXxKIAqvMvMQ&riu=http%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f03%2fSingapore_Airlines_logo_emblem_logotype_bright.png&ehk=bqbjunxwr9iUwQinjyVmdUzTEca8i08zWZdbx%2fQj0b8%3d&risl=&pid=ImgRaw&r=0" class="logos-section-image" />
+                              </div>
+                              <div>
+                                <img src="https://th.bing.com/th/id/R.16b75c25dca01a6e4d7a125393aafe59?rik=K1XzJr0w4J%2bApA&riu=http%3a%2f%2f4.bp.blogspot.com%2f-K4bq8j8GSd0%2fUSaMBl9qE5I%2fAAAAAAADxxM%2fUfo3EXM3bvs%2fs1600%2fTurkish_Airlines_Logo21.jpg&ehk=jdrwjLdABxBLIMDCKhHuEIRVICss3yDXNeBiA79dFbU%3d&risl=&pid=ImgRaw&r=0" 
+                                class="logos-section-image" />
+                              </div>
+                              <div>
+                                <img src="https://th.bing.com/th/id/R.e9b941da0ca054fdb94e69e3fe539c66?rik=gRn4Oz7sE5CsyQ&riu=http%3a%2f%2ffiles.softicons.com%2fdownload%2fsystem-icons%2fcrystal-intense-icons-by-tatice%2fpng%2f256%2fFleche+droite+bleue.png&ehk=XU6wqqtlWQeJTJW0b44OWpVotv7WUZDD6TD%2bpSfuprc%3d&risl=&pid=ImgRaw&r=0" 
+                                class="logos-section-image" />
+                              </div>
+                          </div>
+                          <div class="footer-section">
+                            <h1 class="heading">Why People Choose Us?</h1>
+                          </div>
+                      </div>
+      </div>
+    </body>
+</html>
+
+    
